@@ -262,6 +262,7 @@ namespace Alteruna
 				}
 
 				string newName = room.Name;
+
 				if (ShowUserCount)
 				{
 					newName += " (" + room.GetUserCount() + "/" + room.MaxUsers + ")";
