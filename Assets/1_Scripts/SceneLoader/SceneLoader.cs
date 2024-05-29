@@ -1,5 +1,4 @@
 using Alteruna;
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance { get; private set; }
+
+    public LoadGameData GameData;
 
     public void Start()
     {
@@ -23,19 +24,24 @@ public class SceneLoader : MonoBehaviour
     public void LoadGameScene(LoadGameData data)
     {
         AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("GameScene");
-        data.Room.Join();
-        StartCoroutine(Wait(asyncOperation, () => { data.Room.Join(); }));
+
+        GameData = data;
     }
 
-    private IEnumerator Wait(AsyncOperation asyncOperation, Action action)
+    public void LoadScene(int sceneIndex)
     {
-        yield return new WaitForSeconds(0.1f);
-        action?.Invoke();
+        SceneManager.LoadScene(sceneIndex);
     }
-
 }
 
 public class LoadGameData
 {
-    public Room Room;
+    public LoadGameType GameType;
+
+    public enum LoadGameType
+    {
+        SearchServer,
+        CreateServer,
+        Client
+    }
 }

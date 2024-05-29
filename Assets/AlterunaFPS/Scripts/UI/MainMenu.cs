@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Security.Cryptography;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -10,13 +12,20 @@ namespace AlterunaFPS
 	{
 		public void LoadScene(int sceneIndex)
 		{
-			SceneManager.LoadScene(sceneIndex);
+			SceneLoader.Instance.LoadScene(sceneIndex);
 		}
 		
 		public void LoadScene(string sceneName)
 		{
 			SceneManager.LoadScene(sceneName);
 		}
+
+		public void LoadGameSceneAsSearch()
+		{
+            LoadGameData loadGameData = new LoadGameData() { GameType = LoadGameData.LoadGameType.SearchServer };
+
+            SceneLoader.Instance.LoadGameScene(loadGameData);
+        }
 		
 		public void Quit()
 		{

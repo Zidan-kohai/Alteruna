@@ -1,4 +1,5 @@
 ﻿using Alteruna;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace AlterunaFPS
@@ -8,6 +9,9 @@ namespace AlterunaFPS
 		public UnityEvent InitHost;
 		public UnityEvent InitHostConnect;
 		public UnityEvent InitClient;
+
+		public GameObject SearchServerWindow;
+		public GameObject CreateServerWindow;
 
 		private void Start()
 		{
@@ -22,7 +26,16 @@ namespace AlterunaFPS
 			{
 				InitClient.Invoke();
 			}
-		}
+
+			if(SceneLoader.Instance.GameData.GameType == LoadGameData.LoadGameType.SearchServer)
+			{
+				SearchServerWindow.SetActive(true);
+			}
+			else if (SceneLoader.Instance.GameData.GameType == LoadGameData.LoadGameType.SearchServer)
+            {
+                CreateServerWindow.SetActive(true);
+            }
+        }
 
 		private void CallInitHost(Multiplayer arg0, Endpoint arg1)
 		{

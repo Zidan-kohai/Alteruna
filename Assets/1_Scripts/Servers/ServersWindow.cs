@@ -141,10 +141,7 @@ public class ServersWindow : CommunicationBridge
                 entry.Button.interactable = true;
                 entry.Button.onClick.AddListener(() =>
                 {
-                    LoadGameData loadGameData = new LoadGameData() { Room = room};
-
-                    SceneLoader.Instance.LoadGameScene(loadGameData);
-
+                    room.Join();
                     UpdateList(multiplayer);
                 });
             }
