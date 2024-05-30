@@ -31,7 +31,7 @@ namespace AlterunaFPS
 			{
 				SearchServerWindow.SetActive(true);
 			}
-			else if (SceneLoader.Instance.GameData.GameType == LoadGameData.LoadGameType.SearchServer)
+			else if (SceneLoader.Instance.GameData.GameType == LoadGameData.LoadGameType.CreateServer)
             {
                 CreateServerWindow.SetActive(true);
             }
