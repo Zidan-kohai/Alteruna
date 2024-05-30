@@ -1510,6 +1510,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1637432551171719143, guid: 7a53dee7968638e43826cfb35fcde7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637432551171719143, guid: 7a53dee7968638e43826cfb35fcde7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5424910753495510644}
+    - target: {fileID: 1637432551171719143, guid: 7a53dee7968638e43826cfb35fcde7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637432551171719143, guid: 7a53dee7968638e43826cfb35fcde7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AlterunaFPS.MenuInstance, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2625622517220929442, guid: 7a53dee7968638e43826cfb35fcde7a6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 91.10002
@@ -1671,7 +1687,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3163453427620941365, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -343
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4927037193148674008, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_Name
@@ -1683,23 +1699,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6437713637479811157, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6437713637479811157, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6437713637479811157, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6825068250705292077, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6825068250705292077, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332508863737416440, guid: 5535b6433fda89b4da83f7bf6e3a1b82, type: 3}
       propertyPath: m_Pivot.x
