@@ -65,7 +65,8 @@ namespace AlterunaFPS
 					
 					// move the gun to follow the camera
 					var rad = GetAngleBetweenAngles(_cameraTarget.eulerAngles.y, GunRoot.parent.eulerAngles.y) * Mathf.Deg2Rad;
-					GunRoot.localPosition = new Vector3(Mathf.Sin(rad / 2f) * DistanceFromBody, _gunBaseHeight + camForward.y * DistanceFromBody * 0.95f, Mathf.Cos(rad) * DistanceFromBody);
+					//GunRoot.localPosition = new Vector3(Mathf.Sin(rad / 2f) * DistanceFromBody, _gunBaseHeight + camForward.y * DistanceFromBody * 0.95f, Mathf.Cos(rad) * DistanceFromBody);
+					GunRoot.localPosition = new Vector3(Mathf.Sin(rad / 2f) * DistanceFromBody, GunRoot.localPosition.y, Mathf.Cos(rad) * DistanceFromBody);
 					
 					// point that the gun is aiming at
 					
@@ -88,7 +89,7 @@ namespace AlterunaFPS
 					
 				}
 
-				IKController.IkActive = true;
+				//IKController.IkActive = true;
 				
 				// if the gun is firing or reloading, don't allow any other actions
 				if ((_gunFireCooldown -= Time.deltaTime) > 0 || (_gunReloadCooldown -= Time.deltaTime) > 0)
@@ -119,7 +120,7 @@ namespace AlterunaFPS
 			}
 			else
 			{
-				IKController.IkActive = false;
+				//IKController.IkActive = false;
 			}
 		}
 		
