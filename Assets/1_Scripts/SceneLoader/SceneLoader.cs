@@ -23,7 +23,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadGameScene(LoadGameData data)
     {
-        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("GameScene");
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(1);
 
         GameData = data;
     }
