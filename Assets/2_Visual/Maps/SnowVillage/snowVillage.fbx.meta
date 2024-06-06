@@ -3,7 +3,312 @@ guid: 931f5d2d54a8e1b448a01fdff5a13549
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bed.001
+    second: {fileID: 2100000, guid: 041883dbd12eeb44e8184b0748affcda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Block_of_Coal
+    second: {fileID: 2100000, guid: 041883dbd12eeb44e8184b0748affcda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Block_of_Quartz
+    second: {fileID: 2100000, guid: 041883dbd12eeb44e8184b0748affcda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Block_of_Redstone.001
+    second: {fileID: 2100000, guid: 041883dbd12eeb44e8184b0748affcda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brewing_Stand
+    second: {fileID: 2100000, guid: 2cf64b0791c6f9c4dafc5ed4d23381d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cactus
+    second: {fileID: 2100000, guid: 717af920f3b5108418a89640e8b0c470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet.001
+    second: {fileID: 2100000, guid: 62fcd26cfa85d6842bab3a1a1c2ab869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carrot
+    second: {fileID: 2100000, guid: 84ce23fcac4b8ee4f9c5205090bd4a7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chest
+    second: {fileID: 2100000, guid: 41b0e0569af8a8c47854c7d603e5adbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cobblestone
+    second: {fileID: 2100000, guid: 6a84db999a78a6244bce9f4e09b534b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cobblestone_Stairs
+    second: {fileID: 2100000, guid: 173d6e37f162a20478c25712a2167839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cobblestone_Wall.001
+    second: {fileID: 2100000, guid: ae6fd0ac97774174e8e232e91458a910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crafting_Table.001
+    second: {fileID: 2100000, guid: b6b2cd6e2b95b4e44b6ba0b91c6779db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirt
+    second: {fileID: 2100000, guid: 6cde291721cda354e9406185129af405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Double_Wooden_Slab
+    second: {fileID: 2100000, guid: a9f9efa726a653144ab87cca8b3b40b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Farmland
+    second: {fileID: 2100000, guid: 80aea3235e4ffc043a527e82750f7c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire
+    second: {fileID: 2100000, guid: 63acc4d3e1a165f4ea71ef45126ae305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flower_Pot.001
+    second: {fileID: 2100000, guid: 4c7b191a2f1bc1041bee0bd46cb439ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furnace.001
+    second: {fileID: 2100000, guid: 5b34fb2ba01479a4d85dec7b6c0ec0be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glowstone
+    second: {fileID: 2100000, guid: 00abe3dc5531db249925bb58ca0e52c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 0945c46dc5001934eac3af2435f41631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_Block
+    second: {fileID: 2100000, guid: 2daec991560ec644d83eb8fb71aa0095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hay_Bale
+    second: {fileID: 2100000, guid: 16d39fc8d7a54084999d65ad42c45df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ice
+    second: {fileID: 2100000, guid: d1ac5710a656cb245ada21c9d81b39ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron_Ore
+    second: {fileID: 2100000, guid: a4b48f496d933d34192f91d771b94a91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jack_o'Lantern
+    second: {fileID: 2100000, guid: 6aea739f58fe10b42bc30aef321e9f27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ladder
+    second: {fileID: 2100000, guid: 194d7c9de0247d347bfd7578f0dbb1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: 149536d8066d54b49b5900117c397ff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lever
+    second: {fileID: 2100000, guid: 0ac0220656f1a5046b9d30b54d4ae52e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nether_Portal
+    second: {fileID: 2100000, guid: 326a404eda64eba4d8d6adde0d12dd8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Netherrack
+    second: {fileID: 2100000, guid: 1fee053dfd8c17543bb1ef999642ef3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak_Log.001
+    second: {fileID: 2100000, guid: 5533c91c65401644d8bea5e57fa0fe2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak_Planks.001
+    second: {fileID: 2100000, guid: dbe1daea7d8be3b42bb94bee7d180849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak_Trapdoor
+    second: {fileID: 2100000, guid: 0d1908cbb00cc8b45bdf7d8b28a493d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Obsidian
+    second: {fileID: 2100000, guid: b779670b64eab424d8e6e589a51667c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pumpkin
+    second: {fileID: 2100000, guid: 00b44416f0351a34e8ec0eeda7346399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pumpkin_Stem
+    second: {fileID: 2100000, guid: 2b0ed3cfdb95e6b429d1f1ed1616970c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Redstone_Torch_(active)
+    second: {fileID: 2100000, guid: 283a4de2225e6b44ca977b3e0ce4d570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Redstone_Wire
+    second: {fileID: 2100000, guid: ff54b6df0662f8c489a612b9ca7f1112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sapling
+    second: {fileID: 2100000, guid: 5461275282b664646a1d15006cd21348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow
+    second: {fileID: 2100000, guid: e049543d846f68e4b81b4ddd6b496b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow_(layer)
+    second: {fileID: 2100000, guid: e784753fdb9004d4b96b96ef6a72c8f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soul_Sand
+    second: {fileID: 2100000, guid: 20c5dfb41a2144549909cee505de711e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spruce_Door
+    second: {fileID: 2100000, guid: c3d7db17a8f746745aba25dc66d785cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spruce_Fence
+    second: {fileID: 2100000, guid: 84f19f0b3fd61e84da61cf4d575fe8dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spruce_Fence_Gate
+    second: {fileID: 2100000, guid: 890af70193e84f245a7aca892565d8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spruce_Stairs
+    second: {fileID: 2100000, guid: cacf8a0e035d2c34aacd4f21337c5b2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spruce_Trapdoor
+    second: {fileID: 2100000, guid: c4c4524303c92ed478f023e21aa11d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stationary_Lava
+    second: {fileID: 2100000, guid: d6f7edd9fc86fc44ca09f6467412e1f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stationary_Water.001
+    second: {fileID: 2100000, guid: 85d775d51f857374899fb24712bc4730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone.001
+    second: {fileID: 2100000, guid: 7e0bfc5cfa3ea9a4d8a5992ec41e5327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Brick_Stairs
+    second: {fileID: 2100000, guid: 42fd518c781955b4aa2dffe738ab431e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Bricks
+    second: {fileID: 2100000, guid: 6908c9d840c850742ae54c9aa13f5e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Button
+    second: {fileID: 2100000, guid: a7ae1e67bec13904bb9ee36d6523c00a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Slab.001
+    second: {fileID: 2100000, guid: 9c14fe12368aad9438209469473cce38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stripped_Oak_Log
+    second: {fileID: 2100000, guid: 68f6ae9662c82844c852a30a5aa1e142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torch
+    second: {fileID: 2100000, guid: 6f82a46371c68cd408d58e36f577cc1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Sign
+    second: {fileID: 2100000, guid: 4085a895e459f4c49885f75d929419c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weighted_Pressure_Plate_(Light)
+    second: {fileID: 2100000, guid: c5f2978c79a49de43854ec37bb8c33f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheat
+    second: {fileID: 2100000, guid: 4e45127529bb33643bbbfe19782bf301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden_Slab
+    second: {fileID: 2100000, guid: 37a3c0f735d432143851038741bdd314, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -90,7 +395,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
