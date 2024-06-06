@@ -89,6 +89,7 @@ namespace AlterunaFPS
 			}
 			else
 			{
+				return;
 				FirstPersonCamera.gameObject.SetActive(false);
 				ThirdPersonCamera.gameObject.SetActive(true);
 				FirstPersonCamera.m_Lens.FieldOfView = defaultFovFps;

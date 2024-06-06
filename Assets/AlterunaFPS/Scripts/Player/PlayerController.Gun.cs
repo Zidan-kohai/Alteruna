@@ -29,7 +29,7 @@ namespace AlterunaFPS
 		
 		private Transform _gunLooker;
 
-		private void InitializeGun()
+        private void InitializeGun()
 		{
 			_gunBaseHeight = GunRoot.localPosition.y;
 			
@@ -65,8 +65,7 @@ namespace AlterunaFPS
 					
 					// move the gun to follow the camera
 					var rad = GetAngleBetweenAngles(_cameraTarget.eulerAngles.y, GunRoot.parent.eulerAngles.y) * Mathf.Deg2Rad;
-					//GunRoot.localPosition = new Vector3(Mathf.Sin(rad / 2f) * DistanceFromBody, _gunBaseHeight + camForward.y * DistanceFromBody * 0.95f, Mathf.Cos(rad) * DistanceFromBody);
-					GunRoot.localPosition = new Vector3(Mathf.Sin(rad / 2f) * DistanceFromBody, GunRoot.localPosition.y, Mathf.Cos(rad) * DistanceFromBody);
+					GunRoot.localPosition = new Vector3(Mathf.Sin(rad / 2f) * DistanceFromBody, _gunBaseHeight + camForward.y * DistanceFromBody * 0.95f, Mathf.Cos(rad) * DistanceFromBody);
 					
 					// point that the gun is aiming at
 					

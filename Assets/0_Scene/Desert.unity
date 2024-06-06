@@ -601,7 +601,7 @@ MonoBehaviour:
     Users: 
   _maxPlayers: 10
   AvatarSpawning: 1
-  AvatarPrefab: {fileID: 2844620306005208380, guid: 114892db657962a48918487ba2deb281, type: 3}
+  AvatarPrefab: {fileID: 6360409533700551140, guid: c341ac6a636e6e342ad8f1dc8cc472e0, type: 3}
   AvatarSpawnLocation: {fileID: 0}
   SpawnAvatarPerIndex: 1
   AvatarSpawnLocations:
@@ -746,7 +746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 838869648453486848, guid: aa7dbc77cbe042e4f873d133ce366718, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 35.19
       objectReference: {fileID: 0}
     - target: {fileID: 838869648453486848, guid: aa7dbc77cbe042e4f873d133ce366718, type: 3}
       propertyPath: m_LocalPosition.z
@@ -973,7 +973,7 @@ Transform:
   m_GameObject: {fileID: 8944336656349189697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6583145, z: 0.072173}
+  m_LocalPosition: {x: 0, y: 36.848312, z: 0.072173}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

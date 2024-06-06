@@ -89,7 +89,7 @@ namespace AlterunaFPS
 			var oldYaw = _cinemachineTargetYaw;
 			var oldPitch = _cinemachineTargetPitch;
 
-			FirstPerson = _defaultCamera ? !_camera : _camera;
+			//FirstPerson = _defaultCamera ? !_camera : _camera;
 
 			if (AllowInput)
 				_cinemachineTargetYaw += MouseX;
@@ -99,7 +99,7 @@ namespace AlterunaFPS
 				var euler = NormalizeAnglePos(transform.localRotation.eulerAngles.y);
 
 
-				const float maxDifference = 90f;
+				const float maxDifference = 15f;
 				float difference = GetAngleBetweenAngles(_cinemachineTargetYaw, euler);
 
 				if (difference > maxDifference)
