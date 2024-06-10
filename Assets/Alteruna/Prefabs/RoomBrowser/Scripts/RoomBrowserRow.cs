@@ -14,7 +14,8 @@ namespace Alteruna
 		public string RoomName { get => _textRoomName.text; set { _textRoomName.text = value; } }
 
 		public GameMode GameMode { get => _customInfo.GameMode; set { _customInfo.GameMode = value; _textGameMode.text = value.ToString(); } }
-		public int SceneIndex { get => _customInfo.SceneIndex; set { _customInfo.SceneIndex = value; _textMap.text = MapDescriptions.Instance.GetSceneTitleByIndex(value); } }
+
+		public int SceneIndex { get => _customInfo.SceneIndex; set { _customInfo.SceneIndex = value; _textMap.text = mapDescription.GetSceneTitleByIndex(value); } }
 
 		public int MaxPlayers { get; set; }
 		public int ConnectedPlayers { get => _connectedPlayers; set { _connectedPlayers = value; _textPlayers.text = $"{value} / {MaxPlayers}"; } }
@@ -24,6 +25,7 @@ namespace Alteruna
 		[SerializeField] private Color _evenBackgroundColor;
 		[SerializeField] private Color _oddBackgroundColor;
 		[SerializeField] private Color _selectedBackgroundColor = new Color(0.8f, 0.8f, 0.8f, 1);
+		[SerializeField] private MapDescriptions mapDescription;
 
 		[SerializeField] private Color _textColor;
 		[SerializeField] private Color _selectedTextColor = new Color(0, 0, 0, 1);

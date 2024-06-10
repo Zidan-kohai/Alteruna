@@ -209,13 +209,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730688143636391754}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1.477, z: 0.311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: -0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5240727447530997548}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2584492449082834879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,8 +1074,8 @@ MonoBehaviour:
   CameraAngleOverride: 0
   LockCameraPosition: 0
   FirstPersonCameraRotationSmoothing: 0.3
-  GunRoot: {fileID: 0}
-  FirePoint: {fileID: 0}
+  GunRoot: {fileID: 3528140063488436920}
+  FirePoint: {fileID: 6731620819721187630}
   IKController: {fileID: 9117443033481183393}
   GunAnimator: {fileID: 9063857965016911840}
   BulletCollisionLayers:
@@ -1298,5 +1298,10 @@ Transform:
 --- !u!4 &3528140063488436920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8888108809469067027, guid: f1e2b7900bd577047994f78516d8375c, type: 3}
+  m_PrefabInstance: {fileID: 5453471498341782955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6731620819721187630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1640746326700057733, guid: f1e2b7900bd577047994f78516d8375c, type: 3}
   m_PrefabInstance: {fileID: 5453471498341782955}
   m_PrefabAsset: {fileID: 0}

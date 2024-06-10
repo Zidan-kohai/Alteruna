@@ -8,6 +8,8 @@ namespace AlterunaFPS
 {
 	public class MainMenu : MonoBehaviour
 	{
+		[SerializeField] private GameObject serverPanel;
+
 		public void LoadScene(int sceneIndex)
 		{
 			SceneLoader.Instance.LoadScene(sceneIndex);
@@ -25,6 +27,12 @@ namespace AlterunaFPS
             LoadGameData loadGameData = new LoadGameData() { GameType = LoadGameData.LoadGameType.SearchServer };
 
             SceneLoader.Instance.LoadGameScene(loadGameData);
+        }
+
+		public void OpenServerPanel()
+		{
+            serverPanel.SetActive(true);
+
         }
 		
 		public void Quit()

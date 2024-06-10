@@ -28,8 +28,9 @@ namespace Alteruna
 		[SerializeField] private TMP_Dropdown _dropdownScene;
 		[SerializeField] private Toggle _toggleHideRoom;
 		[SerializeField] private Button _buttonCreateRoom;
-
+		[SerializeField] private MapDescriptions mapDescription; 
 		private CustomRoomInfo _customRoomInfo;
+
 
 
 		void Start()
@@ -118,13 +119,13 @@ namespace Alteruna
 
 		private void SetMapInfo()
 		{
-			MapInfo info = MapDescriptions.Instance.GetMapDescription(_customRoomInfo.SceneIndex);
+			MapInfo info = mapDescription.GetMapDescription(_customRoomInfo.SceneIndex);
 			_imageMap.sprite = info.Image;
 			_textMapInfo.text = info.Description;
 			_textMapTitle.text = info.Title;
 
 			if (_imageMap.sprite == null)
-				_imageMap.sprite = MapDescriptions.Instance.DefaultImage;
+				_imageMap.sprite = mapDescription.DefaultImage;
 		}
 
 		private void HandleRoomName(string value)
@@ -252,7 +253,7 @@ namespace Alteruna
 			dropdown.ClearOptions();
 
 			List<TMP_Dropdown.OptionData> options = new List<TMP_Dropdown.OptionData>();
-			var descriptions = MapDescriptions.Instance.GetValidMapDescriptions();
+			var descriptions = mapDescription.GetValidMapDescriptions();
 
 			foreach (var item in descriptions)
 			{
@@ -270,7 +271,7 @@ namespace Alteruna
 			if (EditorApplication.isPlaying)
 				return;
 
-			MapDescriptions.Instance.PopulateScenesIntoList();
+            mapDescription.PopulateScenesIntoList();
 		}
 #endif
 	}

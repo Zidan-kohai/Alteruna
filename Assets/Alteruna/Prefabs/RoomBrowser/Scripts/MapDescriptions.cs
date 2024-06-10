@@ -49,6 +49,8 @@ namespace Alteruna
 		private const string RESOURCE_PATH = RESOURCE_DIRECTORY + "/" + RESOURCE_NAME + ".asset";
 #endregion
 		static MapDescriptions _instance;
+
+		//я перекидываю вручную
 		public static MapDescriptions Instance => GetInstance(); 
 
 		public Sprite DefaultImage;

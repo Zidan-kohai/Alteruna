@@ -145,7 +145,7 @@ namespace AlterunaFPS
 			{
 				_cameraTarget.rotation = Quaternion.Lerp(
 					_cameraTarget.rotation,
-					Quaternion.Euler(_cinemachineTargetPitch, _cinemachineTargetYaw, 0),
+					Quaternion.Euler(_cinemachineTargetPitch, _cinemachineTargetYaw + 180, 0),
 					Time.deltaTime * (FirstPersonCameraRotationSmoothing / Time.smoothDeltaTime));
 			}
 
